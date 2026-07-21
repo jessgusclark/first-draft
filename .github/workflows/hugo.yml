@@ -30,6 +30,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://ashittyfirstdraft.xyz
     env:
       HUGO_VERSION: 0.128.0
     steps:
