@@ -1,4 +1,3 @@
-baseURL = 'https://example.org/'
+baseURL = "https://ashittyfirstdraft.xyz"
 locale = 'en-us'
 title = 'A Shitty First Draft'
-baseURL = "https://ashittyfirstdraft.xyz/"
