@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+</head>
+<body>
+  <header>
+    <a href="{{ "/" | relURL }}">{{ site.Title }}</a>
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>
