@@ -10,7 +10,7 @@ draft: false
 
 Yesterday, I was sitting at a cafe with my remarkable tablet & my phone and I thought, "I'm going to write a blog post." And so I did.
 
-So, when I got home, I whot up a small plugin that uses Remarkable's "send to email" feature to post blog posts to Github.
+So, when I got home, I [wrote up a small plugin](https://github.com/jessgusclark/remarkable-hugo) that uses Remarkable's "send to email" feature to post blog posts to Github.
 
 And that's what this is.
 
