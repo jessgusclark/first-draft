@@ -13,7 +13,7 @@ p, li {
 }
 
 li {
-  padding-bottom: .25em;
+  padding-bottom: .5em;
 }
 
 img {
@@ -30,3 +30,18 @@ article img {
   padding: 5px;
 }
 
+a {
+  color: #070707;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #2C45F0;
+}
+
+.pound {
+  color: #2C45F0;
+  margin-right: .25em;
+  font-weight: 300 !important;
+}
+
+.date, time {
+  color: #999;
+}

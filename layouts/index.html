@@ -1,15 +1,14 @@
 {{ define "main" }}
-<h1>{{ site.Title }}</h1>
+<h1><span class="pound">#</span>{{ site.Title }}</h1>
 
 <article>
   {{ .Content }}
+  <ul>
+    {{ range where site.RegularPages "Section" "posts" }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
 </article>
-
-<ul>
-  {{ range where site.RegularPages "Section" "posts" }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Date.Format "January 2, 2006" }}
-  </li>
-  {{ end }}
-</ul>
 {{ end }}
